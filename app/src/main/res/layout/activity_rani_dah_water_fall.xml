@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anurag.chhattisgarhbhraman.RaniDahWaterFall">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:src="@drawable/rani_dah_wf_img"
+                android:layout_weight="5"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Rani Dah "
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="25dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="8"
+                android:text="Rani Dah Waterfall, Jashpur is an ideal place for a quiet picnic, away from the din and bustle of city life.Situated in hilly terrain in the midst of forest, Rani Dah Waterfall is one of the most frequented picnic spots in Jashpur. The whole surrounding area near the waterfall tells of rich eco tourism in Jashpur. Interestingly the forest department of Chhattisgarh arranges tours to these beautiful places on request. There are tribal villages surrounding the Rani Dah Waterfall which adds a different sort of charm to the area. The area is in close proximity to Echkela and 12 kilometers from Jashpur main."
+                android:padding="10dp"
+                android:textSize="15dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

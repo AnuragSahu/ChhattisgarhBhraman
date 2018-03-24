@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anurag.chhattisgarhbhraman.Religious">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/rlTitle"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:orientation="vertical"
+            android:background="@drawable/ratanpur_rel">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Religious"
+                android:textAllCaps="true"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:textAlignment="center"/>
+
+
+
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/dongargarh_rel_img_a"
+                        android:orientation="vertical"
+                        android:padding="20dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Dongargarh"
+                            android:textAllCaps="true"
+                            android:textSize="35dp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Religious"
+                            android:textSize="20dp"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+
+                        <Button
+                            android:id="@+id/bDongargarh"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:alpha="0.75"
+                            android:text="Explore ->"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+                </LinearLayout> // Dongargarh
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/dhanteshwari_temple_rel_a"
+                        android:orientation="vertical"
+                        android:padding="20dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Danteshwari Temple"
+                            android:textAllCaps="true"
+                            android:textSize="35dp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Religious"
+                            android:textSize="20dp"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+
+                        <Button
+                            android:id="@+id/bDanteshwariT"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:alpha="0.75"
+                            android:text="Explore ->"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+                </LinearLayout> // Dhanteshwari Temple
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ratanpur_rel_a"
+                        android:orientation="vertical"
+                        android:padding="20dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Ratanpur"
+                            android:textAllCaps="true"
+                            android:textSize="35dp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Religious"
+                            android:textSize="20dp"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+
+                        <Button
+                            android:id="@+id/bRantanpur"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:alpha="0.75"
+                            android:text="Explore ->"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+                </LinearLayout> // Rantanpur
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bhoramdeo_tem_rel_a"
+                        android:orientation="vertical"
+                        android:padding="20dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="bhoramdeo Temple"
+                            android:textAllCaps="true"
+                            android:textSize="35dp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Religious"
+                            android:textSize="20dp"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+
+                        <Button
+                            android:id="@+id/bBhoramdeoT"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:alpha="0.75"
+                            android:text="Explore ->"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+                </LinearLayout> // Bhoramdeo Temple
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/laxman_tem_rel_a"
+                        android:orientation="vertical"
+                        android:padding="20dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Laxman Temple"
+                            android:textAllCaps="true"
+                            android:textSize="35dp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Religious"
+                            android:textSize="20dp"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+
+                        <Button
+                            android:id="@+id/bLaxmanT"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:alpha="0.75"
+                            android:text="Explore ->"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+                </LinearLayout> // Laxman Temple
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bursur_twin_ganesha_tem_rel_a"
+                        android:orientation="vertical"
+                        android:padding="20dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Barsur Twin Ganesha Temple"
+                            android:textAllCaps="true"
+                            android:textSize="35dp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Religious"
+                            android:textSize="20dp"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+
+                        <Button
+                            android:id="@+id/bBarsurT"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:alpha="0.75"
+                            android:text="Explore ->"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+                </LinearLayout> // Barsur twin ganesha Temple
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rajim_temp_rel_a"
+                        android:orientation="vertical"
+                        android:padding="20dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Rajim Temple"
+                            android:textAllCaps="true"
+                            android:textSize="35dp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Religious"
+                            android:textSize="20dp"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+
+                        <Button
+                            android:id="@+id/bRajimT"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:alpha="0.75"
+                            android:text="Explore ->"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+                </LinearLayout> // Rajim Temple
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

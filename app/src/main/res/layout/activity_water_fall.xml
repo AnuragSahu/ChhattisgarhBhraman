@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anurag.chhattisgarhbhraman.WaterFallActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/rlTitle"
+            android:layout_width="match_parent"
+            android:layout_height="221dp"
+            android:orientation="vertical"
+            android:background="@drawable/rajpuri_wf_img_a">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Water Falls"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#ffffff"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/chitrakote_wf_img_a"
+                        android:orientation="vertical"
+                        android:padding="20dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Chitrakote WaterFalls"
+                            android:textAllCaps="true"
+                            android:textSize="35dp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Water Falls"
+                            android:textSize="20dp"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+                        <Button
+                            android:id="@+id/bChitrakoteWF"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Explore ->"
+                            android:alpha="0.75"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+                </LinearLayout> // Chitrakote waterfalls
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/tirathgarh_wf_img_a"
+                        android:orientation="vertical"
+                        android:padding="20dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="TirathGarh WaterFalls"
+                            android:textAllCaps="true"
+                            android:textSize="35dp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Water Falls"
+                            android:textSize="20dp"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+                        <Button
+                            android:id="@+id/bTirathgarthWF"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Explore ->"
+                            android:alpha="0.75"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+                </LinearLayout> // Tirathgarh waterfalls
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/mendhri_ghoomar_wf_img_a"
+                        android:orientation="vertical"
+                        android:padding="20dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Mendri ghoomar WaterFalls"
+                            android:textAllCaps="true"
+                            android:textSize="35dp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Water Falls"
+                            android:textSize="20dp"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+                        <Button
+                            android:id="@+id/bMendriWF"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Explore ->"
+                            android:alpha="0.75"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+                </LinearLayout> // Mendri waterfalls
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/amrithdahara_wf_img_a"
+                        android:orientation="vertical"
+                        android:padding="20dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Amritdhara WaterFalls"
+                            android:textAllCaps="true"
+                            android:textSize="35dp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Water Falls"
+                            android:textSize="20dp"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+                        <Button
+                            android:id="@+id/bAmritdharaWF"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Explore ->"
+                            android:alpha="0.75"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+                </LinearLayout> // Amritdhara waterfalls
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/churri_wf_img_a"
+                        android:orientation="vertical"
+                        android:padding="20dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Churri WaterFalls"
+                            android:textAllCaps="true"
+                            android:textSize="35dp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Water Falls"
+                            android:textSize="20dp"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+                        <Button
+                            android:id="@+id/bChurriWF"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Explore ->"
+                            android:alpha="0.75"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+                </LinearLayout> // Churri waterfalls
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rajpuri_wf_img_a"
+                        android:orientation="vertical"
+                        android:padding="20dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Rajpuri WaterFalls"
+                            android:textAllCaps="true"
+                            android:textSize="35dp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Water Falls"
+                            android:textSize="20dp"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+                        <Button
+                            android:id="@+id/bRajpuriWF"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Explore ->"
+                            android:alpha="0.75"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+                </LinearLayout> // Rajpuri waterfalls
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rani_dah_wf_img_a"
+                        android:orientation="vertical"
+                        android:padding="20dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Rani Dah WaterFalls"
+                            android:textAllCaps="true"
+                            android:textSize="35dp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Water Falls"
+                            android:textSize="20dp"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+
+                        <Button
+                            android:id="@+id/bRaniWF"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Explore ->"
+                            android:alpha="0.75"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+                </LinearLayout> // Rani Dah waterfalls
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/tiger_point_wf_img_a"
+                        android:orientation="vertical"
+                        android:padding="20dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Tiger Point WaterFalls"
+                            android:textAllCaps="true"
+                            android:textSize="35dp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Water Falls"
+                            android:textSize="20dp"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+                        <Button
+                            android:id="@+id/bTigerWF"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Explore ->"
+                            android:alpha="0.75"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+                </LinearLayout> // Tiger Point waterfalls
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rakasganda_wf_img_a"
+                        android:orientation="vertical"
+                        android:padding="20dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Rakasganda WaterFalls"
+                            android:textAllCaps="true"
+                            android:textSize="35dp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Water Falls"
+                            android:textSize="20dp"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+                        <Button
+                            android:id="@+id/bRakasgandaWF"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Explore ->"
+                            android:alpha="0.75"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+                </LinearLayout> // Rakasganda waterfalls
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/kendai_wf_img_a"
+                        android:orientation="vertical"
+                        android:padding="20dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Kendai WaterFalls"
+                            android:textAllCaps="true"
+                            android:textSize="35dp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Water Falls"
+                            android:textSize="20dp"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+                        <Button
+                            android:id="@+id/bKendaiWF"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Explore ->"
+                            android:alpha="0.75"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+                </LinearLayout> // Kendai waterfalls
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/kailash_gufa_wf_img_a"
+                        android:orientation="vertical"
+                        android:padding="20dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Kailash Gufa WaterFalls"
+                            android:textAllCaps="true"
+                            android:textSize="35dp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Water Falls"
+                            android:textSize="20dp"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"/>
+                        <Button
+                            android:id="@+id/bKailashWF"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Explore ->"
+                            android:alpha="0.75"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+                </LinearLayout> // Kailash Gufa waterfalls
+            </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

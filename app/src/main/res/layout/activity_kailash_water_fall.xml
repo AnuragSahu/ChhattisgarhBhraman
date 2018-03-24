@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anurag.chhattisgarhbhraman.KailashWaterFall">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:src="@drawable/kailash_gufa_wf_ing"
+                android:layout_weight="5"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Kailash Gufa WaterFall"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="25dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="8"
+                android:text="Kailash Gufa is located in the dense jungle of Kangar Valley National Park. The cave seems to be out of some prehistoric era with dark and narrow entrance. This 100 meter long cave is located in a hill and came into notice in 1993. The stalactite and stalacmite formation leaves are the main features of this ancient cave. It provides ample resources for the geologist. It is probably known as Kailash Gufa because of the natural stalagmite formation of a shivlinga. Another interesting character of the cave lies in the fact that whenever you strike the hollow walls it makes musical sound created due to the vacuum between the cave walls."
+                android:padding="10dp"
+                android:textSize="15dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

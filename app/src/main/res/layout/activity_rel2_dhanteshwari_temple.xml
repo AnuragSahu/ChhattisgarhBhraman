@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anurag.chhattisgarhbhraman.Rel2DhanteshwariTemple">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:src="@drawable/dhanteshwari_temple_rel"
+                android:layout_weight="5"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Dhanteshwari Temple"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="25dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="8"
+                android:text="This ancient temple is at the confluence of the Dakini and Shankini rivers, about one and a half hours from Jagdalpur. It was built by the Chalukya kings of Bastar in honor of their family Goddess, Devi Danteshwari, who is venerated by both Hindus and tribals in the entire Bastar region. The temple is divided into four parts – Garbh Griha, Maha Mandap, Mukhya Mandap and Sabha Mandap. The first two are constructed using stone. The temple itself has been constructed at various times, but the sanctum sanctorum is believed to be more than 800 years old. A Garuda Pillar has been erected in front of the temple entrance. The Danteshwari Temple really comes to life during the Bastar Dussehra festival season. Men have to wear a lungi to enter the temple."
+                android:padding="10dp"
+                android:textSize="15dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

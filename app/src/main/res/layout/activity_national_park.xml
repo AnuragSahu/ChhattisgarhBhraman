@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anurag.chhattisgarhbhraman.NationalParkActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+        android:id="@+id/rlTitle"
+        android:layout_width="match_parent"
+        android:layout_height="221dp"
+        android:orientation="vertical"
+        android:background="@drawable/kanger_valley_national_park">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="National Parks and BioSphere Reserve"
+            android:textAllCaps="true"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textAlignment="center"/>
+
+
+
+    </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:padding="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/guru_ghasi_das_np_img_a"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Guru Ghasi Das National Park"
+                android:textAllCaps="true"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="National Parks and Biosphere Reserve"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:textAlignment="center"/>
+            <Button
+                android:id="@+id/bGuruGhasiDasNP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Explore ->"
+                android:alpha="0.75"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </LinearLayout> // Guru Ghasi Das National park Wala
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="30dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/kanger_valley_np_img_a"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kanger Valley National Park"
+                        android:textAllCaps="true"
+                        android:textSize="35dp"
+                        android:textStyle="bold"
+                        android:textColor="#ffffff"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="National Parks and Biosphere Reserve"
+                        android:textSize="20dp"
+                        android:textColor="#ffffff"
+                        android:textAlignment="center"/>
+                    <Button
+                        android:id="@+id/bKangerValleyNP"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Explore ->"
+                        android:alpha="0.75"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+            </LinearLayout> // Kanger Valley National park Wala
+            </LinearLayout>
+    </LinearLayout>
+
+        </ScrollView>
+
+
+</RelativeLayout>

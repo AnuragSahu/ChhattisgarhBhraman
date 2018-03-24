@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anurag.chhattisgarhbhraman.Rel4BhoramdeoT">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:src="@drawable/bhoramdeo_tem_rel"
+                android:layout_weight="5"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Bhoramdeo Temple"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="25dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="8"
+                android:text="Bhoramdeo Temple, or the ‘Khajuraho of Chhattisgarh’, carved on the rocky stones in the Nagar style is an ancient Hindu temple dedicated to Lord Shiva. Situated in the Kabirdham district of Chhattisgarh, This temple was built in the period of 7th to 11th century A.D and is beautifully located amidst mountain ranges. The temples are said to be built by King Ramchandra of the Nag Dynasty. The Shiva Linga in the temple is wonderfully carved and the artistic appeal beckons the visitors. The Bhoramdeo temple has a resemblance with the Sun temple of Konark and The Khajuraho temple."
+                android:padding="10dp"
+                android:textSize="15dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

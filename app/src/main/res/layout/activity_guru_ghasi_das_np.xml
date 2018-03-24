@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anurag.chhattisgarhbhraman.GuruGhasiDasNPActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:src="@drawable/guru_ghasi_das_np_img"
+                android:layout_weight="5"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Guru Ghasidas National Park"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="25dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="8"
+                android:text="Guru Ghasidas National Park is marked as one of the most unique of all the protected areas in Chhattisgarh. If you are considering a Tour to Chhattisgarh try to include this park in your travel itinerary. The diverse vegetation of the region consists of a wide variety of mammal population. Tigers, Leopards, Chital, Nilgai, Chinkara, Jackals, Sambar, Four-horned Antelopes, Jungle Cat, Barking Deer, Porcupine, Monkey, Bison, Striped Hyena, Sloth Bear, Wild Dogs are some of the common species found in this region. It is also an ideal place to watch migratory birds. The best time to visit this place is during November to June."
+                android:padding="10dp"
+                android:textSize="15dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

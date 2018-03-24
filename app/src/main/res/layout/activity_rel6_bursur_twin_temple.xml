@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anurag.chhattisgarhbhraman.Rel6BursurTwinTemple">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:src="@drawable/bursur_twin_ganesha_tem_rel"
+                android:layout_weight="5"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Bursur Twin Ganesh Temple"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="25dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="8"
+                android:text="Located on the banks of the Indrāvati River, about 75 km (a one and a half to two hour drive) to the south west of Jagdalpur, Barsur was once an epicenter of Hindu civilization. It is believed that there were once 147 temples and an equal number of ponds here. The ruins of these temples, dating back to the 10th and 11th centuries (i.e. over 1,000 years old) can be seen even today. Some beautiful images of Lord Vishnu can also be seen. One Shiva temple, with 12 carved stone pillars, has nude figures on the outside. Another Shiva temple has 32 carved stone pillars, a black granite Nandi (Shiva’s carrier) bull, and two sanctum sanctorum with a common court. A 50 foot high temple, known locally as Mama-bhanja-ka-mandir (temple of the maternal uncle and nephew), is in good condition, but lacks an idol. It is not clear to which deity the temple was consecrated, or even if it was ever consecrated. The biggest attraction though, is the Ganesha Temple. While the temple itself is in ruins, two sandstone images of Ganesh, both in the aspect of Maha-Ganapati, are amazingly intact. The larger of these, and the more impressive, is about 8 feet high and over 17 feet wide."
+                android:padding="10dp"
+                android:textSize="15dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

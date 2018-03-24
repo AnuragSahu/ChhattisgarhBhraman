@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anurag.chhattisgarhbhraman.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/llLay"
+        android:padding="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEARCH Chhattisgarh"
+            android:background="#ffffff"/>
+
+    </LinearLayout>
+    <ScrollView
+        android:id="@+id/svScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/llLay">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@drawable/kanger_valley_national_park_a"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="National Park and Biosphere Reserve"
+                    android:textAllCaps="true"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffaaaa"
+                    android:textAlignment="center"
+                    android:paddingTop="20dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chhattisgarh being blessed with woody range has 3 National Parks namely Indravati National Park, Kanquer Valley National park..."
+                    android:textSize="15dp"
+                    android:textColor="#aaffaa"
+                    android:textAlignment="center"/>
+                <Button
+                    android:id="@+id/bNationalPark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Explore ->"
+                    android:alpha="0.5"
+                    android:layout_gravity="center"/>
+            </LinearLayout> // National Park wala
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@drawable/rajpuri_wf_img_c"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="WaterFalls"
+                    android:textAllCaps="true"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffaaaa"
+                    android:textAlignment="center"
+                    android:paddingTop="20dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chhattisgarh is home some of the best and most strangest waterfalls found in india .For more on the water falls of Chhattis..."
+                    android:textSize="15dp"
+                    android:textColor="#aaffaa"
+                    android:textAlignment="center"/>
+                <Button
+                    android:id="@+id/bWaterFalls"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Explore ->"
+                    android:alpha="0.5"
+                    android:layout_gravity="center"/>
+            </LinearLayout> .// Water Falls Wala
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@drawable/images"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Religions"
+                    android:textAllCaps="true"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffaaaa"
+                    android:textAlignment="center"
+                    android:paddingTop="20dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The multi-reliqions culture of chhattisgarh is attribu..."
+                    android:textSize="15dp"
+                    android:textColor="#aaffaa"
+                    android:textAlignment="center"/>
+                <Button
+                    android:id="@+id/bReligions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Explore ->"
+                    android:alpha="0.5"
+                    android:layout_gravity="center"/>
+            </LinearLayout> // Religions wala
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/images"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="WildLife sanctuaries "
+                    android:textAllCaps="true"
+                    android:textSize="35dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chhattisgarh goes under thick and dense woods, contribut..."
+                    android:textSize="20dp"
+                    android:textColor="#ffffff"/>
+                <Button
+                    android:id="@+id/bWildlife"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Explore ->"
+                    android:alpha="0.75"/>
+            </LinearLayout> // Wildlife wala
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/images"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hills"
+                    android:textAllCaps="true"
+                    android:textSize="35dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hills are the beginning and end of natural scenary."
+                    android:textSize="20dp"
+                    android:textColor="#ffffff"/>
+                <Button
+                    android:id="@+id/bHills"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Explore ->"
+                    android:alpha="0.75"/>
+            </LinearLayout> // Hills wala
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/images"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tribes"
+                    android:textAllCaps="true"
+                    android:textSize="35dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chhattisgarh and tribal society are two tautological terms as the state is country of many tribes dewelling in thic..."
+                    android:textSize="20dp"
+                    android:textColor="#ffffff"/>
+                <Button
+                    android:id="@+id/bTribes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Explore ->"
+                    android:alpha="0.75"/>
+            </LinearLayout> // Tribes wala
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/images"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Museums"
+                    android:textAllCaps="true"
+                    android:textSize="35dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chhattisgarh is brimming with antiquated landmar.."
+                    android:textSize="20dp"
+                    android:textColor="#ffffff"/>
+                <Button
+                    android:id="@+id/bMuseums"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Explore ->"
+                    android:alpha="0.75"/>
+            </LinearLayout> // Museums wala
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/images"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="caves"
+                    android:textAllCaps="true"
+                    android:textSize="35dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The State has numerous antiquated landmarks, natural ..."
+                    android:textSize="20dp"
+                    android:textColor="#ffffff"/>
+                <Button
+                    android:id="@+id/bCaves"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Explore ->"
+                    android:alpha="0.75"/>
+            </LinearLayout> // Caves wala
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/images"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="DAM"
+                    android:textAllCaps="true"
+                    android:textSize="35dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The magnificience Dams in Chhattisgarh, spa..."
+                    android:textSize="20dp"
+                    android:textColor="#ffffff"/>
+                <Button
+                    android:id="@+id/bDam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Explore ->"
+                    android:alpha="0.75"/>
+            </LinearLayout> // Dam wala
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/images"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tiger Reserve"
+                    android:textAllCaps="true"
+                    android:textSize="35dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="India Holds over a large portion of worls's tiger p..."
+                    android:textSize="20dp"
+                    android:textColor="#ffffff"/>
+                <Button
+                    android:id="@+id/bTiger"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Explore ->"
+                    android:alpha="0.75"/>
+            </LinearLayout> // Tiger reserve wala
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/images"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Art and Craft"
+                    android:textAllCaps="true"
+                    android:textSize="35dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chhattisgar is know for it's extraordinary ancient rarities. It is home to countless families better referred to as I.."
+                    android:textSize="20dp"
+                    android:textColor="#ffffff"/>
+                <Button
+                    android:id="@+id/bArt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Explore ->"
+                    android:alpha="0.75"/>
+            </LinearLayout> // Art and craft wala
+
+        </LinearLayout> // Explore options..
+    </ScrollView>
+
+</RelativeLayout>

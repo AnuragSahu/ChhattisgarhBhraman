@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anurag.chhattisgarhbhraman.KendaiWaterFall">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:src="@drawable/kendai_wf_img"
+                android:layout_weight="5"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Kendai WaterFall"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="25dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="8"
+                android:text="Kendai Waterfall is beautiful waterfall situated at Hardimuha village, about 67 km from Korba district in Chhattisgarh. Height of  this waterfall is 55 ft. above sea level. This is one of the beautiful picnic spot in the korba district.
+
+Situated on the Bilaspur road amidst dense forest, Kendai Waterfall is a natural waterfall and a delightful picnic spot. This charming waterfall lies at Kendai village which is situated at a distance 85 km from korba district headquarter on the Bilaspur-Ambikapur State highway No. 5 in Chhattisgarh state of India. One can enjoy the beauty of this lovely waterfall having 75 feet height by walking down right to the bottom of the fall and splash around in water.
+"
+                android:padding="10dp"
+                android:textSize="15dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anurag.chhattisgarhbhraman.Rel3Ratanpur">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:src="@drawable/ratanpur_rel"
+                android:layout_weight="5"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Ratanpur"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="25dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="8"
+                android:text="Mahamaya Devi. Situated at 25 km away from the city of Bilaspur (Chhattisgarh) on the Bilaspur-Ambikapur state highway, the Mandir and the relics of scores of ancillary temples, domes, palaces and forts, now rundown by the time and natural forces – seem to tell a story. Once the capital of the Kalchuri kings, Ratanpur has almost a millennium of history. Ratanpura, originally known as Ratnapura, was the capital of Kalachuris of Ratnapura, who were a branch of the Kalachuris of Tripuri. According to the 1114 CE Ratanpur inscription of the local king Jajjaladeva I, his ancestor Kalingaraja conquered Dakshina Kosala region, and made Tummana (modern Tuman) his capital. Kalingaraja's grandson Ratnaraja established Ratnapura (modern Ratanpur).
+
+In 1407, the Kingdom of Ratanpur was divided into two parts, with its junior branch ruling from Raipur.It continued as the capital of Haihaiyavansi Kingdom until the 18th century, when it ruled large areas of Chhattisgarh, until the area passed to the control of the Bhosle and later the British.
+
+At around 25 kilometres (16 mi) from Bilaspur, the second largest town in Chhattisgarh state after Raipur, the journey to Raipur from the town can be made by plane, train or bus."
+                android:padding="10dp"
+                android:textSize="15dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
